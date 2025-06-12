@@ -9,7 +9,7 @@ phases:
       - aws --version
       - ACCOUNT_ID=235494798709
       - REGION=us-east-1
-      - REPO_NAME=spring-repo
+      - REPO_NAME=235494798709.dkr.ecr.us-east-1.amazonaws.com/spring-repo:latest
       - IMAGE_TAG=latest
       - aws ecr get-login-password --region $REGION | docker login --username AWS --password-stdin $ACCOUNT_ID.dkr.ecr.$REGION.amazonaws.com
  
