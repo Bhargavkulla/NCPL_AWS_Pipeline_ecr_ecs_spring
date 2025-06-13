@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:235494798709:task-definition/Spring-task:3"
+        TaskDefinition: "arn:aws:ecs:us-east-1:235494798709:task-definition/springtask:1"
         LoadBalancerInfo:
           ContainerName: "karthik-z"
           ContainerPort: 8080
